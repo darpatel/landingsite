@@ -5,10 +5,19 @@
  */
 @font-face {
     font-family: 'arcamajora';
-    src: url('arcamajora3-heavy-webfont.woff2') format('woff2'),
-         url('arcamajora3-heavy-webfont.woff') format('woff');
+    src: local("Arca Majora 3 Bold");
     font-weight: normal;
     font-style: normal;
+}
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
 }
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -29,7 +38,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'acramajora', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 a {
   -webkit-transition: all 0.35s;
@@ -170,11 +179,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: #A41E35;
   /* fallback for old browsers */
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(180deg, #A41E35, #dc2430);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
