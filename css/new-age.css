@@ -53,6 +53,18 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
 }
+p1 {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0;
+    color: white;
+    position: relative;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
