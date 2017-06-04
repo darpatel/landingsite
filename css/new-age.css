@@ -176,12 +176,6 @@ p {
     color: #A41E35;
   }
 }
-header2 {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  overflow-y: hidden;
-}
 header {
   position: relative;
   width: 100%;
