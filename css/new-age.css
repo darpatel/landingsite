@@ -248,11 +248,22 @@ header .device-container .screen img {
     font-size: 50px;
   }
 }
+section2 {
+  padding-bottom: 5px 0;
+  padding-top: 5px 0;
+  padding-left: 5px 0;
+  padding-right: 5px 0;
+  color: white;
+}
 section {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 section h2 {
   font-size: 50px;
+}
+section.download2{
+    padding: 50px 0;
+    position: relative;
 }
 section.download {
   padding: 150px 0;
@@ -367,7 +378,7 @@ section.contact h2 {
   margin-bottom: 25px;
 }
 section.contact h2 i {
-  color: #dd4b39;
+  color: #fff;
 }
 section.contact ul.list-social {
   margin-bottom: 0;
@@ -381,26 +392,30 @@ section.contact ul.list-social li a {
   border-radius: 100%;
   color: white;
 }
+section.contact ul.list-social li a:hover {
+    color: #A41E35
+}
+
 section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
+  border: #fff;
 }
 section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
+  background-color: #fff;
 }
 section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
+  border: #fff;
 }
 section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
+  background-color: #fff;
 }
 section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
+  border-bottom-color: white;
 }
 section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
+  background-color: #fff;
 }
 footer {
-  background-color: #222222;
+  /* background-color: #222222; */
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -422,8 +437,19 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }
+
 .bg-primary {
-  background: url("../img/bg-pattern.png"), linear-gradient( 180deg, #222222, #fdc539);
+  background: /*url("../img/bg-pattern.png"), linear-gradient( 180deg, #A41E35
+, #dc2430);*/ #A41E35;
+}
+.bg-secondary {    
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px, rgba(255, 255, 255, 1);
+  margin: 10px;
 }
 .text-primary {
   color: #A41E35;
@@ -441,9 +467,9 @@ footer ul li a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: white;
-  background-color: #A41E35;
-  border-color: #A41E35;
+  color: #A41E35;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
