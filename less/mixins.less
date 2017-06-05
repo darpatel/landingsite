@@ -1,5 +1,26 @@
 // Mixins
 
+.cursor(@p1) {    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    right: auto;
+    left: 0;
+    height: 40%;
+    width: 3px;
+    background-color: #fff;
+    animation: cursorAnimation 1.5s step-end infinite;
+    animation-name: cursorAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: step-end;
+    animation-delay: initial;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
 .transition-all() {
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
