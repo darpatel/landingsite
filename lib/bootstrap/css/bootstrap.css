@@ -261,9 +261,9 @@ th {
   }
 }
 @font-face {
-    font-family: 'arcamajora';
-    src: url('arcamajora3-heavy-webfont.woff2') format('woff2'),
-         url('arcamajora3-heavy-webfont.woff') format('woff');
+    font-family: 'arca';
+    src: url('../font/arcamajora3-heavy-webfont.woff2') format('woff2'),
+         url('../font/arcamajora3-heavy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -1106,7 +1106,7 @@ video-background {
   z-index: -100;
 }
 body {
-  font-family: "acramajora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "arca", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #fff;

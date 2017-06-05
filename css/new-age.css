@@ -3,12 +3,6 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-@font-face {
-    font-family: 'arcamajora';
-    src: local("Arca Majora 3 Bold");
-    font-weight: normal;
-    font-style: normal;
-}
 #video-background {
   position: fixed;
   right: 0; 
@@ -19,16 +13,26 @@
   height: auto;
   z-index: -100;
 }
+@font-face {
+    font-family: 'arca';
+    src: url('../font/arcamajora3-heavy-webfont.otf') format('otf'),
+         url('../font/arcamajora3-heavy-webfont.eot') format('eot'),
+         url('../font/arcamajora3-heavy-webfont.woff2') format('woff2'),
+         url('../font/arcamajora3-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Catamaran' 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -38,7 +42,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'acramajora', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
 }
 a {
   -webkit-transition: all 0.35s;
@@ -65,14 +69,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 p1 {
-    font-family: 'arcamajora', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-family: 'arca', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 30px;
+    letter-spacing: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,12 +98,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   color: #A41E35;
@@ -114,7 +118,7 @@ p {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
@@ -472,7 +476,7 @@ footer ul li a.active {
   border-color: #fff;
 }
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'arca', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
