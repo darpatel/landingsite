@@ -12,6 +12,8 @@
   width: auto; 
   height: auto;
   z-index: -100;
+  align-items: center;
+  
 }
 .blinking-cursor {
   font-weight: 100;
