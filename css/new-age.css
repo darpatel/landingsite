@@ -3,7 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-#video-background {
+/*#video-background {
   position: fixed;
   right: 0; 
   bottom: 0;
@@ -12,8 +12,22 @@
   width: auto; 
   height: auto;
   z-index: -100;
-  align-items: center;
-  
+}*/
+#video-background { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("../img/bg-pattern.png"), linear-gradient( 180deg, #A41E35
+, #dc2430); 
 }
 .blinking-cursor {
   font-weight: 100;
