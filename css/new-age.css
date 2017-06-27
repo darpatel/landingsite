@@ -26,8 +26,6 @@
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url("../img/bg-pattern.png"), linear-gradient( 180deg, #A41E35
-, #dc2430); 
 }
 .blinking-cursor {
   font-weight: 100;
@@ -170,13 +168,14 @@ p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'arca', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 200px;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
   font-family: 'arca', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 200px;
   letter-spacing: 1px;
+  font-size: 15px;
   color: #A41E35;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -189,7 +188,7 @@ p {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'arca', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
